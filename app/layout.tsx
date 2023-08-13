@@ -1,6 +1,6 @@
 import './globals.css';
 import AppContextProvider from './AppContext';
-import Header from '@/components/shared/Header';
+import Header from '@/app/components/shared/Header';
 
 export const metadata = {
   title: 'Create Next App',

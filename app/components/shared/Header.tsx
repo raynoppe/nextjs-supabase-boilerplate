@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <header className="w-full flex">
-            <div>LOGO</div>
+        <header className="w-full flex absolute bg-red-200 h-[70px]">
+            <div className=" text-red-500">LOGO</div>
             <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16">
                 <div className="w-full max-w-4xl flex justify-between items-center p-3 text-sm text-foreground">
                     <div />
