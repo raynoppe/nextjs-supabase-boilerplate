@@ -1,5 +1,7 @@
 # Supabase Starter
 
+This is a fork from the original that had more holes in it than a Sieves. I am filling in the holes to get a true starter.
+
 This starter configures Supabase Auth to use cookies, making the user's session available throughout the entire Next.js app - Client Components, Server Components, Route Handlers, Server Actions and Middleware.
 
 ## Deploy your own

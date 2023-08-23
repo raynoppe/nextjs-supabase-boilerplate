@@ -3,7 +3,7 @@
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
 import { useRouter } from 'next/navigation'
 
-export default function LogoutButton() {
+export default async function LogoutButton() {
   const router = useRouter()
 
   // Create a Supabase client configured to use cookies
